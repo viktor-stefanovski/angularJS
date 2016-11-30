@@ -1,2 +1,2 @@
 # angularJS
-Coursera AngularJS assigment 1 solution.
+Coursera AngularJS assigment 1 solution. Done
