@@ -33,10 +33,12 @@ function CheckLunch($scope) {
         $scope.customStyle.style = {"border-color":"red"};
        } else {
         if (items.length <= 3) {
+          $scope.message = "Enjoy!";
           $scope.customStyle.style = {"border-color":"green"};
           $scope.customStyle.style = {"color":"green"};
         } else {
-          $scope.customStyle.style = {"border-color":"red"};
+          $scope.message = "Too much!";
+          $scope.customStyle.style = {"border-color":"green"};
           $scope.customStyle.style = {"color":"green"};
         }
       }
